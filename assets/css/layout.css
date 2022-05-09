@@ -137,6 +137,10 @@ a.btn-sesc{
 {
     color: white;
 }
+.bloco.estilo2 p, .bloco.estilo2 h2, .bloco.estilo2 h3
+{
+    color: #3f3f3f;
+}
 .bloco .carousel-control-next, .bloco .carousel-control-prev {
     opacity: 1;
 }
@@ -339,6 +343,12 @@ h3, .subtitulo{
     color: #004E52;
     box-shadow: unset !important
 }
+.bloco.estilo2 .painel-abas .tab-content{
+    border: 3px solid #3f3f3f;
+    background-color: white;
+    color: #333;
+
+}
 .painel-abas  .tab-pane h3{     
     font-family: 'Libre Franklin Semibold';
     font-size: 1rem;
@@ -357,6 +367,12 @@ h3, .subtitulo{
     color: white;
     font-weight: bold;
 }
+.bloco.estilo2 .painel-abas .nav-link.active{
+    background-color: #3f3f3f;
+    border-color: #3f3f3f;
+    color: #fff;
+    
+}
 
 .painel-abas .nav-link{
     background-color: #ffffff;
@@ -364,6 +380,11 @@ h3, .subtitulo{
     color: #00838D;
     font-weight: bold;
     border-width: 2px;
+}
+.bloco.estilo2 .painel-abas .nav-link{
+    background-color: #ffffff;
+    border-color: #3f3f3f;
+    color: #3f3f3f;
 }
 .painel-abas .nav-link:hover, .painel-abas .nav-link:focus {
     background-color: #00848da6;
@@ -741,6 +762,15 @@ h3, .subtitulo{
     position: absolute;
     top: 420px;
     right: 0px;
+  }
+
+  .tooltip-padrao {
+    font-weight: bold;
+    text-decoration: none;
+    color: #3f3f3f;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px dotted #00838d;
   }
 /*iphones 5 pra baixo da vida*/
 @media screen and (max-width:320px) {
