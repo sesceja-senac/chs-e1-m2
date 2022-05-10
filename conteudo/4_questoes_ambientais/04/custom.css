@@ -232,5 +232,9 @@ img {
     text-align: right;
     width: 95px;
   }
+  .parallax {
+    height: 300px;
+    background-size: unset;
+  }
 }
 
