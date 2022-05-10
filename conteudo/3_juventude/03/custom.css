@@ -1,0 +1,232 @@
+figure {
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figure figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.timeline {
+  background-image: url(../04/img/timeline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 501px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.timeline__periodo {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+  top: 500px;
+  left: 400px;
+}
+
+.timeline__periodo--primeiro {
+  top: 53px;
+  width: 192px;
+  left: 306px;
+}
+
+
+.timeline__periodo--segundo {
+  left: 14px;
+  top: 216px;
+  text-align: right;
+}
+
+.timeline__periodo--terceiro {
+  left: 307px;
+  top: 412px;
+  text-align: right;
+}
+
+.timeline__img {
+  position: absolute;
+  transition: 300ms;
+}
+
+.timeline__img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.timeline__img--primeira {
+  top: 10px;
+  left: 93px;
+}
+
+.timeline__img--segunda {
+  top: 193px;
+  left: 270px;
+}
+
+.timeline__img--terceira {
+  top: 368px;
+  left: 94px;
+}
+
+.ul-clima {
+  list-style-image: url(../04/img/terra.png);
+}
+
+
+.parallax {
+  background-image: url("../04/img/parallax-poluicao.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.tooltiper {
+  border: 2px dotted #00838d;
+  color: #00838d;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0 4px;
+  transition: 300ms;
+}
+
+.tooltiper:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.carousel.sesc .carousel-item {
+  text-align: center;
+}
+
+.caixa {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.estilo1 .btn-sesc {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.center  {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* media queries */
+
+/* card */
+.card-container, .front, .back {
+  max-width: 100%;
+}
+
+.card-container {
+	margin: 0;
+  height: 300px;
+  margin-top: 40px;
+}
+
+.front, .back {
+	box-sizing: border-box;
+	padding: 0;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+}
+
+.card-container {
+	position: relative;
+}
+.front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	overflow: hidden;
+	transition: transform .8s ease;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.card-container:hover .front {
+	transform: rotateY(-180deg);
+}
+.card-container:hover .back {
+	transform: rotateY(0deg);
+}
+
+.card-container {
+	perspective: 75rem;
+}
+/* card */
+
+
+@media only screen and (max-width: 600px) {
+  .timeline {
+    width: 300px;
+  }
+
+  .timeline__img--primeira {
+    left: 4px;
+  }
+
+  .timeline__img--segunda {
+    left: 156px;
+  }
+
+  .timeline__img--terceira {
+    left: 4px;
+  }
+
+  .timeline__periodo {
+    line-height: 18px;
+    font-size: 14px;
+  }
+
+  .timeline__periodo--primeiro {
+    top: 49px;
+    width: 95px;
+    left: 200px;
+  }
+
+  .timeline__periodo--segundo {
+    left: 5px;
+    top: 216px;
+    text-align: right;
+    width: 95px;
+  }
+
+  .timeline__periodo--terceiro {
+    left: 180px;
+    top: 412px;
+    text-align: right;
+    width: 95px;
+  }
+}
+
