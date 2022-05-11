@@ -263,7 +263,7 @@ p{
     padding: 20px;
     z-index: 2;
     position: relative;
-    background: url(../../assets/img/Vetor.png) center center / auto 100% no-repeat;
+    background: url(../../assets/img/vetor.png) center center / auto 100% no-repeat;
   }
 
 .btn-sesc-image:hover .btn-label {
