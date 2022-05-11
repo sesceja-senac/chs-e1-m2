@@ -246,11 +246,8 @@ p{
 }
 .bloco.estilo1 .btn-sesc,
 .bloco.estilo1 .btn-sesc-image{
-    border: 2px solid white;
-    padding: 6px 15px;
+    border-color: white;
     color: white;
-    font-weight: bold;
-    font-size: .8rem;
     background-color: #00838D;
     
 }
