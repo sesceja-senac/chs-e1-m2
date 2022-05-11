@@ -815,3 +815,33 @@ h3, .subtitulo{
         background: none;
     }
 }
+.diminuir {
+    font-size: 2.3rem;
+  }
+
+
+/* bto proximo e voltar */
+
+.bto-proximo {
+    border: 2px solid #00838d;
+    padding: 7px 13px;
+    color: #00838D;
+    text-decoration: none;
+    margin-bottom: 40px;
+    display: inline-block;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    margin-top: 40px;
+  }
+
+  .bto-proximo:hover{ 
+    color: #00838d;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1.05);
+    }
+    .bto-proximo.voltar {
+      background-color: #00838d;
+      color: white;
+    }
