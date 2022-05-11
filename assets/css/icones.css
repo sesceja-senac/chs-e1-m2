@@ -11,28 +11,44 @@
 }
 
 .icone.dica::before{
-    background-image: url(../objetos/ico-dica.png);
+    background-image: url(../../assets/objetos/ico-dica.png);
 }
 
 .icone.praticar::before{
-    background-image: url(../objetos/ico-praticar.png);
+    background-image: url(../../assets/objetos/ico-praticar.png);
 }
 
 .icone.pergunta::before{
-    background-image: url(../objetos/ico-pergunta.png);
+    background-image: url(../../assets/objetos/ico-pergunta.png);
 }
 .icone.refletir::before{
-    background-image: url(../objetos/ico-refletir.png);
+    background-image: url(../../assets/objetos/ico-refletir.png);
 }
 
 .icone.saiba-mais::before{
-    background-image: url(../objetos/ico-saiba.png);
+    background-image: url(../../assets/objetos/ico-saiba.png);
 }
 
 .icone.atencao::before{
-    background-image: url(../objetos/ico-atencao.png);
+    background-image: url(../../assets/objetos/ico-atencao.png);
 }
-
+.icone.juridico::before{
+    background-image: url(../../assets/objetos/icone-constituicao.png);
+}
+.icone.juridico::before {
+    width: 104px;
+    height: 131px;
+    top: -20px;
+    left: -50px;
+    
+  }
+.icone.importante::before{
+    background-image: url(../../assets/objetos/icone_importante2.png);
+}
+.icone.importante::before {
+    width: 96px;    
+    left: -45px;
+}
 @media print{
     .icone::before{
         display:none !important

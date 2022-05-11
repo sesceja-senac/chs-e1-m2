@@ -1,0 +1,63 @@
+.notasmusicais{
+    background: url(../../assets/objetos/nota-musical.png) top left no-repeat, url(../../assets/objetos/nota-musical2.png) bottom right no-repeat;
+    max-width: 300px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+}
+
+.legenda {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  ul li .fa-check {
+      color: #00838D !important;
+  }
+.bloco.estilo1 ul .fa-check, .bloco.estilo2 ul .fa-check {
+      color: #fff !important;
+}
+.depoimentos{
+    max-width: 601px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.d-foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.d-nome {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#f0efe3;
+    position: relative;
+    }
+.d-nome > span {
+    font-size:1rem;
+    display: block;
+    }
+
+.d-nome::after {
+    content: "";
+    width: 121px;
+    height: 21px;
+    overflow: hidden;
+    background: url(../../assets/objetos/separador.png) top left / 100% auto no-repeat;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.d-texto {
+    background-color: #00838D;
+    padding: 40px;
+    padding-top: 140px;
+    color: #f0efe3;
+    margin-top: -140px;
+    text-align: center;
+}

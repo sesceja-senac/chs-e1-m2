@@ -244,6 +244,15 @@ p{
     background-color: white;
     
 }
+.bloco.estilo1 .btn-sesc, .btn-sesc-image{
+    border: 2px solid white;
+    padding: 6px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: .8rem;
+    background-color: #00838D;
+    
+}
 .btn-sesc-image{
     border: 0px none;
 }
@@ -274,6 +283,10 @@ p{
     color: #00838D;
     transform: rotate(-6deg);
     display: block;
+  }
+ .bloco.estilo1 .btn-sesc-image .btn-label-texto {
+    color: #fff;
+
   }
 /*.btn-sesc:active, .btn-sesc:focus, .btn-sesc-image:active, .btn-sesc-image:focus{*/
 .btn-sesc:active, .btn-sesc-image:active{
