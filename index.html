@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Bootstrap CSS v5.0.2 -->      
-    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <link rel="stylesheet" href="assets/fa/css/all.min.css">
-    <title>Tela inicial</title>
-</head>
-<body>
-    <div class="container pt-4">
-        <h1>Olá</h1>
-        <h2 class="pb-4">Informações gerais</h2>       
-        <p>O template usa bootstrap 5, font-awesome 5 e jquery 3.6. Para animações ele possui linkado animate.css</p>
-        <p>O template utiliza de forma legado o print.js e a paginação dinâmica. Foi acrescentada a possibilidade de adicionar um print.css e um leitor.css customizado, bastando incorporar o caminho no html usando uma tag de script. No final do conteúdo de exemplo temos comentado como proceder. </p>
-        <p>O arquivo icones.css possui o css pra caixa com icone, bem como a forma que é para adicionar novos icones se necessário.</p>
-        <p>Para quiz simples o template possui incorporado o esquema da bru(ver no conteudo linkado ou no arquivo js como é a aplicação)</p>
-        <p>Possui um player de audio customizavel próprio</p>
-        <br>
-        <p>A seguir um link com um conteúdo de exemplo com o template aplicado.</p>
-        <a href="conteudo/todos_elementos_aplicados/index.html" class="btn btn-primary" target="_blank">Conteúdos do template aplicados como exemplo.</a>
-        <a href="conteudo/paginado/index.html" class="btn btn-primary" target="_blank">Um index somente com a paginação</a>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS v5.0.2 -->      
+        <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css" />
+        <link rel="stylesheet" href="assets/fa/css/all.min.css">
+        <link rel="stylesheet" href="custom.css">
+        <title>Tela inicial</title>
+    </head>
+    <body>
+        <div class="container pt-4">
+            <div id="scene" class="d-flex justify-content-between">
+                <div class="img-menina" data-depth='0.9'></div>
+                <div class="titulo-menu" data-depth='0.8'>
+                    <div class="titulo">
+                        <img src="assets/objetos/titulo.png" class="img-fluid">
+                        <h2 class="sr-only">
+                            Fenômeno social: exploração das terras indígenas no brasil
+                        </h2>
+                    </div>
+                    <nav class="menu">
+                        <ul class="d-flex justify-content-around flex-wrap">
+                            <li><a href="conteudo/index.html" class="bt-introducao" target="_blank" title="Introdução"></a></li>
+                            <li><a href="conteudo/1_fenomenosocial/index.html"  class="bt-fenomeno" target="_blank" title="Fenômeno Social"></a></li>
+                            <li><a href="conteudo/index.html?page=3" class="bt-paisagem" target="_blank" title="Paisagem e espaço geográfico"></a></li>
+                            <li><a href="conteudo/2_disputas_territoriais/index.html?page=4" class="bt-disputas" target="_blank" title="Disputas territoriais"></a></li>
+                            <li><a href="conteudo/3_juventude/index.html?page=5" class="bt-fronteiras" target="_blank" title="As fronteiras urbanas, fronteiras culturais e a juventude"></a></li>
+                            <li><a href="conteudo/4_questoes_ambientais/index.html?page=6"  class="bt-questoes" target="_blank" title="Questões ambientais"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="img-menino" data-depth='0.9'></div>
+            </div>
+        </div>
    
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <!--Jquery-->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    
-</body>
-
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+        <!--Jquery-->
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="parallax.js"></script>
+        <script>
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+        </script>
+        <script>
+            var scriptElem=document.createElement("script");
+            scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset="UTF-8",
+            scriptElem.onload=function(){
+                window.ht = new HT({
+                    token:"bf5b7efb148a829a126a0e0c9fd533bf",
+                    align:"top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,           
+                    mobileConfig:{align:"right",
+                                    actionsAlign:"top",
+                                    customButtonStyle:{
+                                        borderRadius:"6px",
+                                        size:"38px",
+                                        horizontalMargin:"13px",
+                                        bottomMargin:"140px",
+                                        rightMargin:"40px"}
+                                    }
+                    });        
+                $('.ht-skip').attr("aria-hidden","true")
+            },
+            document.body.appendChild(scriptElem);
+        </script>
+    </body>
 </html>
