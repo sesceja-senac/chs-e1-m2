@@ -41,7 +41,10 @@
     top: -20px;
     left: -50px;
     
-  }
+}
+.icone.cinema::before{
+    background-image: url(../../assets/objetos/icone-cinema.png);
+}
 .icone.importante::before{
     background-image: url(../../assets/objetos/icone_importante2.png);
 }
