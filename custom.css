@@ -44,41 +44,41 @@ body{
     background-repeat: no-repeat;
     display: block;
 }
-.bt-introducao{
-    background: url('assets/objetos/bt01.png') no-repeat;
-}
+
 .bt-introducao:hover{
     background: url('assets/objetos/bt01_.png') no-repeat;
 }
 .bt-fenomeno{
     background: url('assets/objetos/bt02.png') no-repeat;
+    animation-delay: 2s;
 }
 .bt-fenomeno:hover{
     background: url('assets/objetos/bt02_.png') no-repeat;
 }
-.bt-paisagem{
-    background: url('assets/objetos/bt03.png') no-repeat;
-}
-.bt-paisagem:hover{
-    background: url('assets/objetos/bt03_.png') no-repeat;
-}
 .bt-disputas{
     background: url('assets/objetos/bt04.png') no-repeat;
+    animation-delay: 3s;
 }
 .bt-disputas:hover{
     background: url('assets/objetos/bt04_.png') no-repeat;
 }
 .bt-fronteiras{
     background: url('assets/objetos/bt05.png') no-repeat;
+    animation-delay: 4s;
 }
 .bt-fronteiras:hover{
     background: url('assets/objetos/bt05_.png') no-repeat;
 }
 .bt-questoes{
     background: url('assets/objetos/bt06.png') no-repeat;
+    animation-delay: 5s;
 }
 .bt-questoes:hover{
     background: url('assets/objetos/bt06_.png') no-repeat;
+}
+.bt-introducao{
+    background: url('assets/objetos/bt01.png') no-repeat;
+    animation-delay: 6s;
 }
 
 @media screen and (max-width: 768px){
