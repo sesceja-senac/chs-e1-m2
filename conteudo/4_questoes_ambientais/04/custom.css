@@ -107,6 +107,7 @@ background-image: url("../04/img/parallax-poluicao.jpg");
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0 4px;
   transition: 300ms;
+  text-decoration: none;
 }
 
 .tooltiper:hover {
