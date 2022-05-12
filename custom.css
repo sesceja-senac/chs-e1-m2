@@ -45,9 +45,7 @@ body{
     display: block;
 }
 
-.bt-introducao:hover{
-    background: url('assets/objetos/bt01_.png') no-repeat;
-}
+
 .bt-fenomeno{
     background: url('assets/objetos/bt02.png') no-repeat;
     animation-delay: 2s;
@@ -76,9 +74,12 @@ body{
 .bt-questoes:hover{
     background: url('assets/objetos/bt06_.png') no-repeat;
 }
-.bt-introducao{
+.bt-referencias{
     background: url('assets/objetos/bt01.png') no-repeat;
     animation-delay: 6s;
+}
+.bt-referencias:hover{
+    background: url('assets/objetos/bt01_.png') no-repeat;
 }
 
 @media screen and (max-width: 768px){
