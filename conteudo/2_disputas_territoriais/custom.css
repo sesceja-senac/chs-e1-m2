@@ -9,6 +9,7 @@
 .legenda {
     font-size: 0.75rem;
     text-align: center;
+    word-break: break-all;
   }
 
   ul li .fa-check {

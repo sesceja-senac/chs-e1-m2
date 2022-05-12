@@ -741,7 +741,7 @@ h3, .subtitulo{
 
 .detalhe2 {
     position: absolute;
-    top: 350px;
+    top: 450px;
     right: 0px;
   }
 .detalhe3 {
@@ -781,7 +781,7 @@ h3, .subtitulo{
     color: #3f3f3f;
     cursor: pointer;
     display: inline-block;
-    border-bottom: 2px dotted #00838d;
+    border: 2px dotted #00838d;
   }
 /*iphones 5 pra baixo da vida*/
 @media screen and (max-width:320px) {
@@ -793,6 +793,8 @@ h3, .subtitulo{
     .bg-sesc{
         background: white;
     }
+
+   
 }
 
 
@@ -849,3 +851,21 @@ h3, .subtitulo{
       background-color: #00838d;
       color: white;
     }
+
+    .legenda {
+        font-size: 0.75rem;
+        text-align: center;
+        word-break: break-all;
+      }
+
+      @media only screen and (max-width:991px) {
+        .bg-sesc{
+            background: white;
+        }
+    
+        h1  {
+           font-size: 2em;
+        }
+    }
+    
+    
