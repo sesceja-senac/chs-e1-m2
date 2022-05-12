@@ -8,32 +8,33 @@
         <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/animate.min.css" />
         <link rel="stylesheet" href="assets/fa/css/all.min.css">
+        <link rel="stylesheet" href="animate.min.css">
         <link rel="stylesheet" href="custom.css">
         <title>Tela inicial</title>
     </head>
     <body>
         <div class="container pt-4">
-            <div id="scene" class="inicial d-flex justify-content-between">
-                <div class="d-none d-xl-block img-menina" data-depth='0.9'></div>
-                <div class="titulo-menu" data-depth='0.8'>
+            <div class="inicial d-flex justify-space-between">
+                <div class="d-none d-xl-block img-menina animate__animated animate__fadeInUp animate__delay-1s"></div>
+                <div class="titulo-menu">
                     <div class="titulo">
-                        <img src="assets/objetos/titulo.png" class="img-fluid">
+                        <img src="assets/objetos/titulo.png" class="img-fluid animate__animated animate__backInDown">
                         <h2 class="sr-only">
                             Fenômeno social: exploração das terras indígenas no brasil
                         </h2>
                     </div>
                     <nav class="menu">
                         <ul class="d-flex justify-content-around flex-wrap">
-                            <li><a href="conteudo/index.html" class="bt-introducao" target="_blank" title="Introdução"></a></li>
-                            <li><a href="conteudo/1_fenomenosocial/index.html"  class="bt-fenomeno" target="_blank" title="Fenômeno Social"></a></li>
-                            <li><a href="conteudo/index.html?page=3" class="bt-paisagem" target="_blank" title="Paisagem e espaço geográfico"></a></li>
-                            <li><a href="conteudo/2_disputas_territoriais/index.html?page=4" class="bt-disputas" target="_blank" title="Disputas territoriais"></a></li>
-                            <li><a href="conteudo/3_juventude/index.html?page=5" class="bt-fronteiras" target="_blank" title="As fronteiras urbanas, fronteiras culturais e a juventude"></a></li>
-                            <li><a href="conteudo/4_questoes_ambientais/index.html?page=6"  class="bt-questoes" target="_blank" title="Questões ambientais"></a></li>
+                            <li><a href="conteudo/index.html" class="bt-introducao animate__animated animate__fadeInLeft animate__delay-2s" target="_blank" title="Introdução"></a></li>
+                            <li><a href="conteudo/1_fenomenosocial/index.html"  class="bt-fenomeno animate__animated animate__fadeInLeft animate__delay-3s" target="_blank" title="Fenômeno Social"></a></li>
+                            <li><a href="conteudo/index.html?page=3" class="bt-paisagem animate__animated animate__fadeInLeft animate__delay-4s" target="_blank" title="Paisagem e espaço geográfico"></a></li>
+                            <li><a href="conteudo/2_disputas_territoriais/index.html?page=4" class="bt-disputas animate__animated animate__fadeInLeft animate__delay-2s" target="_blank" title="Disputas territoriais"></a></li>
+                            <li><a href="conteudo/3_juventude/index.html?page=5" class="bt-fronteiras animate__animated animate__fadeInLeft animate__delay-3s" target="_blank" title="As fronteiras urbanas, fronteiras culturais e a juventude"></a></li>
+                            <li><a href="conteudo/4_questoes_ambientais/index.html?page=6"  class="bt-questoes animate__animated animate__fadeInLeft animate__delay-4s" target="_blank" title="Questões ambientais"></a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="d-none d-xl-block img-menino" data-depth='0.9'></div>
+                <div class="d-none d-xl-block img-menino animate__animated animate__fadeInDown animate__delay-1s"></div>
             </div>
         </div>
    
@@ -42,11 +43,6 @@
         <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
         <!--Jquery-->
         <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="parallax.min.js"></script>
-        <script>
-            var scene = document.getElementById('scene');
-            var parallaxInstance = new Parallax(scene);
-        </script>
         <script>
             var scriptElem=document.createElement("script");
             scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
