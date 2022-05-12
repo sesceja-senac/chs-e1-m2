@@ -216,13 +216,13 @@ p{
 }
 
 .caixa{
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid #00838D;
     /* -moz-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -webkit-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     -o-border-image: url(../img/border_pattern.png) 24 27 25 26 repeat;
     border-image: url(../img/border_pattern.png) 24 27 25 26 fill repeat; */
     padding: 30px;
+    color: #00838D;  
 }
 
 .caixa.icone{
@@ -232,11 +232,13 @@ p{
     margin-left: 20px; 
     margin-top: 60px;
     margin-bottom: 30px;
-    color: #00838D;  
+    
 }
-
-.btn-sesc, .btn-sesc-image{
+.btn-sesc { 
     border: 2px solid #00838D;
+}
+.btn-sesc, .btn-sesc-image{
+    
     padding: 6px 15px;
     color: #00838D;
     font-weight: bold;
