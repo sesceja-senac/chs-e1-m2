@@ -253,6 +253,7 @@ p{
 }
 .btn-sesc-image{
     border: 0px none;
+    transition: .75s;
 }
 .btn-sesc:hover{
     transform: translateY(-3px);
@@ -287,12 +288,23 @@ p{
 
   }
 /*.btn-sesc:active, .btn-sesc:focus, .btn-sesc-image:active, .btn-sesc-image:focus{*/
-.btn-sesc:active, .btn-sesc-image:active{
+.btn-sesc-image:hover {
+    transform: scale(1.05) !important;
+    transition: .75s;
+}
+.btn-sesc:active, .btn-sesc-image:active,
+.btn-sesc:focus, .btn-sesc-image:focus{
+    transform: scale(1);
+    color: #00838D;
+    background-color: #fff;
+    
+}
+/* .bloco.estilo1 .btn-sesc:active, .btn-sesc-image:active{
     transform: none;
     color: white;
     background-color: #00838D;
     
-}
+} */
 .btn-sesc.up{
     text-transform: uppercase;
 }
@@ -775,13 +787,27 @@ h3, .subtitulo{
     right: 0px;
   }
 
-  .tooltip-padrao {
+  /* .tooltip-padrao {
     font-weight: bold;
     text-decoration: none;
     color: #3f3f3f;
     cursor: pointer;
     display: inline-block;
     border: 2px dotted #00838d;
+  } */
+  
+  .tooltip-padrao, .tooltiper {
+    border: 2px dotted #00838d;
+    color: #00838d;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 4px;
+    transition: 300ms;
+  }
+  
+  .tooltip-padrao:hover, .tooltiper:hover {
+    cursor: pointer;
+    background-color: #fff;
   }
 /*iphones 5 pra baixo da vida*/
 @media screen and (max-width:320px) {
