@@ -11,8 +11,42 @@
 }
 
 .icone.dica::before{
-    background-image: url(../../assets/objetos/ico-dica.png);
+    background-image: url(../../assets/objetos/ico-dica2.png);
 }
+
+
+.bloco.estilo3 .caixa.icone.dica::before {
+    background-color: #004f53;
+    background-image: url(../../assets/objetos/icone_dica.png);
+  }
+.bloco.estilo2 .caixa.icone.dica::before {
+    background-color: #FF9700;
+    background-image: url(../../assets/objetos/icone_dica.png);
+  }
+
+  .bloco.estilo1 .caixa.icone.dica::before {
+    background-color: #00838d;
+    background-image: url(../../assets/objetos/icone_dica.png);
+  }
+
+.icone.nota::before{
+    background-image: url(../../assets/objetos/icone_nota2.png);
+}
+
+
+.bloco.estilo3 .caixa.icone.nota::before {
+    background-color: #004f53;
+    background-image: url(../../assets/objetos/icone_nota.png);
+  }
+.bloco.estilo2 .caixa.icone.nota::before {
+    background-color: #FF9700;
+    background-image: url(../../assets/objetos/icone_nota.png);
+  }
+
+  .bloco.estilo1 .caixa.icone.nota::before {
+    background-color: #00838d;
+    background-image: url(../../assets/objetos/icone_nota.png);
+  }
 
 .icone.praticar::before{
     background-image: url(../../assets/objetos/ico-praticar.png);
@@ -21,6 +55,21 @@
 .icone.pergunta::before{
     background-image: url(../../assets/objetos/ico-pergunta.png);
 }
+.bloco.estilo3 .caixa.icone.pergunta::before {
+    background-color: #004f53;
+    background-image: url(../../assets/objetos/icone_pergunta.png);
+  }
+.bloco.estilo2 .caixa.icone.pergunta::before {
+    background-color: #FF9700;
+    background-image: url(../../assets/objetos/icone_pergunta.png);
+  }
+
+  .bloco.estilo1 .caixa.icone.pergunta::before {
+    background-color: #00838d;
+    background-image: url(../../assets/objetos/icone_pergunta.png);
+  }
+
+
 .icone.refletir::before{
     background-image: url(../../assets/objetos/ico-refletir.png);
 }

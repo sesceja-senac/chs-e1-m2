@@ -224,7 +224,13 @@ p{
     padding: 30px;
     color: #00838D;  
 }
-
+.bloco.estilo1 .caixa,
+.bloco.estilo2 .caixa{
+    border: 2px solid #fff;
+}
+.bloco.estilo3 .caixa {
+    color: #fff;
+}
 .caixa.icone{
     padding: 40px;
     padding-left: 60px;
@@ -502,6 +508,10 @@ h3, .subtitulo{
     text-align: center;
   }
 
+.moldura.ratio-16x9 {
+    background-position: center center;
+    background-size: 100% auto;
+}
 /*carousel do sesc, o famoso slideshow*/
 .carousel.sesc{
     margin:30px 20px
