@@ -75,11 +75,11 @@ body{
     background: url('assets/objetos/bt06_.png') no-repeat;
 }
 .bt-referencias{
-    background: url('assets/objetos/bt01.png') no-repeat;
+    background: url('assets/objetos/bt07.png') no-repeat;
     animation-delay: 6s;
 }
 .bt-referencias:hover{
-    background: url('assets/objetos/bt01_.png') no-repeat;
+    background: url('assets/objetos/bt07_.png') no-repeat;
 }
 
 @media screen and (max-width: 768px){
