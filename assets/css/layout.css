@@ -224,6 +224,20 @@ p{
     padding: 30px;
     color: #00838D;  
 }
+.caixa.sem-linha {
+    border: 0px none;
+  }
+  .caixa.sem-linha.icone::before {
+    display: block;
+    content: "";
+    width: 83px;
+    height: 115px;
+    background-color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    float: left;
+    top: -30px;
+  }
 .bloco.estilo1 .caixa,
 .bloco.estilo2 .caixa{
     border: 2px solid #fff;

@@ -39,12 +39,12 @@
                 <!--titulo do curso para o print e leitor de tela-->
                 <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Ciências Humanas e Sociais aplicadas</h1>
                 <div class="row g-0 pb-4 pt-4">
-                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+                    <div class="col-12 col-sm-9 d-flex flex-column justify-content-center align-items-start">
                         <h1 class="diminuir">Disputas territoriais, disputas entre os povos brasileiros:territórios
                             indígenas e
                             quilombolas</h1>
                     </div>
-                    <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                    <div class="col-12 col-sm-3 d-flex flex-column justify-content-center align-items-end">
                         <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
                                 class="fas fa-print "></i> imprimir</button>
                     </div>
@@ -96,7 +96,7 @@
                         <p>A partir de agora, descubra como são definidos, quais as leis que os amparam, onde estão
                             localizados e como esses territórios se caracterizam.</p>
                         <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo</p>
-                        <div class="row" aria-hidden="true">
+                        <div class="row no-print" aria-hidden="true">
                             <div class="col-12 col-md-6 text-center">
                                 <button class="btn-sesc-image" data-bs-target="#indigenas" data-bs-toggle="modal">
                                     <div class="thumb_moldura">
@@ -120,7 +120,7 @@
                                 </button>
                             </div>
                         </div>
-<div class="visually-hidden">
+<div class="visually-hidden print">
     
     <h2 class="modal-title" id="staticBackdropLabel">Territórios indígenas</h2>
     <p>Você já sabe que, antes da chegada dos povos europeus, no ano de 1500, ao
@@ -352,7 +352,7 @@
         locais de origem. </p>
     <p>A palavra “quilombo” se refere ao termo kilombo, presente no idioma dos povos
         Bantu, originários de Angola, e significa local de pouso ou acampamento. Já
-        segundo o site da Coordenação Nacional de Articulação das Comunidades Negras
+        segundo o <em>site</em> da Coordenação Nacional de Articulação das Comunidades Negras
         Rurais Quilombolas (CONAQ), seria uma palavra vinda do idioma africano quimbundo
         e significa “sociedade formada por jovens guerreiros que pertenciam a grupos
         étnicos desenraizados de suas comunidades”. Os povos da África Ocidental eram,
@@ -401,7 +401,7 @@
        
 
     
-        <p>Para ler a entrevista na íntegra, acesse o site da Fiocruz e busque a
+        <p>Para ler a entrevista na íntegra, acesse o <em>site</em> da Fiocruz e busque a
             reportagem “A luta dos quilombolas hoje é para libertar a terra”.</p>
    
   <br><br>
@@ -419,7 +419,7 @@
         Acesso em: 2 maio 2022.
     </p>
 <br><br>
-    <p>Segundo o site Agência Brasil, desde 1988 (ano da promulgação da Constituição
+    <p>Segundo o <em>site</em> Agência Brasil, desde 1988 (ano da promulgação da Constituição
         Federal atual), o Brasil já reconheceu oficialmente cerca de 3.200 comunidades
         quilombolas, mas menos de 7% delas possui certificação. Não ter certificação
         reconhecida significa:</p>
@@ -537,7 +537,7 @@
 
 
         <p>Você pode fazer uma visita virtual ao Parque Memorial Quilombo dos
-            Palmares agora mesmo acessando seu site.</p>
+            Palmares agora mesmo acessando seu <em>site</em>.</p>
  
 <br><br>
 
@@ -641,7 +641,7 @@
                             região. Agora entenda como as populações indígenas estão vivendo hoje, quais
                             terras ocupam e quais seus direitos garantidos pela Constituição Federal. </p>
                         <p>Observe o mapa do Brasil abaixo: </p>
-                       <br><br> <a href="../../assets/objetos/fig08.jpg" target="_blank" aria-hidden="true"
+                       <br><br> <a href="../../assets/objetos/fig08-original.jpg" target="_blank" aria-hidden="true"
                             class="d-block text-center"><img src="../../assets/objetos/fig08.jpg" alt=""
                                 class="img-fluid" aria-hidden="true"></a>
                         <div class="visually-hidden-focusable">Mapa do Brasil. No canto superior direito, há
@@ -665,8 +665,8 @@
                             no país por 37,4% da população indígena com mais de cinco anos de idade, em uma
                             população com em torno de 900 mil indivíduos, a maior parte deles vivendo em
                             terras indígenas, de Norte a Sul do país. </p>
-                        mt-5 mb-5
-                        <div class="caixa icone pergunta mt-5 mb-5">
+                
+                        <div class="caixa sem-linha icone pergunta mt-5 mb-5" style="border: 0px none;">
                             <p><strong>Quem são os povos indígenas?</strong></p>
 
                         </div>
@@ -675,7 +675,7 @@
                             povos preexistentes aos Estados atuais, conservam total ou parcialmente as suas
                             instituições sociais, políticas e culturais ou modos de vida e têm
                             autoconsciência da sua própria identidade. </p>
-                        <div class="caixa icone pergunta mt-5 mb-5">
+                        <div class="caixa sem-linha icone pergunta mt-5 mb-5">
                             <p><strong>Como são reconhecidas as terras pertencentes a esses povos?</strong>
                             </p>
 
@@ -724,7 +724,7 @@
                                 usos, costumes e tradições.</li>
 
                         </ul>
-                        <div class="caixa icone pergunta mt-5 mb-5">
+                        <div class="caixa icone sem-linha pergunta mt-5 mb-5">
                             <p><strong>Por que há conflitos nesses territórios?</strong></p>
                         </div>
                         <p>A questão da demarcação das terras indígenas, ainda que prevista e muito bem
@@ -843,7 +843,7 @@
                         <p>E como é a relação dos povos indígenas em áreas urbanas? Confira no vídeo.</p>
                         <div class="moldura">
                             <iframe class="youtube-pl" width="560" height="315"
-                                src="https://www.youtube.com/embed/h7MYJghRWt0?modestbranding=1"
+                                src="https://www.youtube.com/embed/KEktD2vzB_g?modestbranding=1"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
@@ -891,7 +891,7 @@
                             locais de origem. </p>
                         <p>A palavra “quilombo” se refere ao termo kilombo, presente no idioma dos povos
                             Bantu, originários de Angola, e significa local de pouso ou acampamento. Já
-                            segundo o site da Coordenação Nacional de Articulação das Comunidades Negras
+                            segundo o <em>site</em> da Coordenação Nacional de Articulação das Comunidades Negras
                             Rurais Quilombolas (CONAQ), seria uma palavra vinda do idioma africano quimbundo
                             e significa “sociedade formada por jovens guerreiros que pertenciam a grupos
                             étnicos desenraizados de suas comunidades”. Os povos da África Ocidental eram,
@@ -941,7 +941,7 @@
                         </div>
                         <br>
                         <div class="caixa mt-5">
-                            <p>Para ler a entrevista na íntegra, acesse o site da Fiocruz e busque a
+                            <p>Para ler a entrevista na íntegra, acesse o <em>site</em> da Fiocruz e busque a
                                 reportagem “A luta dos quilombolas hoje é para libertar a terra”.</p>
                         </div><br>
                         <br><br>
@@ -959,7 +959,7 @@
                             Acesso em: 2 maio 2022.
                         </p>
 <br><br>
-                        <p>Segundo o site Agência Brasil, desde 1988 (ano da promulgação da Constituição
+                        <p>Segundo o <em>site</em> Agência Brasil, desde 1988 (ano da promulgação da Constituição
                             Federal atual), o Brasil já reconheceu oficialmente cerca de 3.200 comunidades
                             quilombolas, mas menos de 7% delas possui certificação. Não ter certificação
                             reconhecida significa:</p>
@@ -1083,7 +1083,7 @@
 
                         <div class="caixa mt-5 mb-5">
                             <p>Você pode fazer uma visita virtual ao Parque Memorial Quilombo dos
-                                Palmares agora mesmo acessando seu site.</p>
+                                Palmares agora mesmo acessando seu <em>site</em>.</p>
                         </div>
 
 <br><br>
