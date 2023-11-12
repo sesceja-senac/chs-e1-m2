@@ -9,6 +9,9 @@ html, body{
     height: 100vh;
     width: 100%;
 }
+.pagina{
+    margin-top: -1px;
+}
 /*menu*/
 .dropdown-menu{
     background: #707070;
@@ -135,7 +138,9 @@ footer li:not(.active) a{
 }
 .img-fluid{
     border-radius: 20px;
-    box-shadow: 8px 8px 13px -7px rgba(0,0,0,0.75);
+    /* box-shadow: 8px 8px 13px -7px rgba(0,0,0,0.75); 
+    */
+    filter: drop-shadow(#222 5px 5px 6px);
 }
 .pagination .active {
     transform: translateY(-8px);
@@ -190,6 +195,8 @@ a.btn-sesc{
 }
 .bloco h2 {
     font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 .estilo1 {
     background:  url(../../img/bg_pg1_3_5.svg), url(../../img/bg_pg_1_3_5.jpg);
@@ -327,7 +334,9 @@ a.btn-sesc{
 }
 div.modal-body p{
     color: #000 !important;
-
+}
+div.modal-body .caixa p{
+    color: #fff !important;
 }
 .bloco .carousel-control-next, .bloco .carousel-control-prev {
     opacity: 1;
@@ -392,6 +401,10 @@ header.sesc{
    
     margin: 0;
     color: #00838D;
+}
+.container h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 p{
@@ -488,10 +501,10 @@ p{
     
 }
 .thumb_moldura {
-    padding: 20px;
+    padding: 20px 0px 10px 0px;
     z-index: 2;
     position: relative;
-    background: url(../../assets/img/vetor.png) center center / auto 100% no-repeat;
+    /* background: url(../../assets/img/vetor.png) center center / auto 100% no-repeat; */
   }
 
 .btn-sesc-image:hover .btn-label {
@@ -569,10 +582,10 @@ p{
 }
 
 h3, .subtitulo{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Libre Franklin Semibold';
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
     color: #000;
 }
 .clique{
@@ -1102,10 +1115,10 @@ h3, .subtitulo{
   
   .tooltip-padrao, .tooltiper {
     border-bottom: 2px dotted #fff;
-    color: #fff;
     border-radius: 3px;
     padding: 0 4px;
     transition: 300ms;
+    text-decoration: none;
   }
   
   .tooltip-padrao:hover, .tooltiper:hover {
@@ -1196,7 +1209,6 @@ h3, .subtitulo{
     font-family: 'Libre Franklin Black';
     text-transform: uppercase;
     font-size: 1.2rem;
-    margin: 0;
     color: #00838D;
   }
 

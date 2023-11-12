@@ -103,7 +103,7 @@ figure figcaption {
 
 .tooltiper {
   border-bottom: 2px dotted #00838d;
-  color: #00838d;
+  color: black;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0 4px;

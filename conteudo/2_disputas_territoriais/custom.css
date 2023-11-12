@@ -13,7 +13,7 @@
   }
 
   ul li .fa-check {
-      color: #00838D !important;
+      color: #fff;
   }
 .bloco.estilo1 ul .fa-check, .bloco.estilo2 ul .fa-check {
       color: #fff !important;
@@ -76,7 +76,14 @@
   .marcatexto {
       position:relative
   }
-
+  div.modal-body .depoimentos p{
+    color: #fff !important;
+  }
+  .img-quilombo-dos-palmares{
+    width: 400px;
+    float: right;
+     margin: 10px;
+}
   .parallax {
     background-image: url("../../assets/objetos/parallax_territorio.jpg");
       height: 500px;
@@ -87,4 +94,14 @@
       margin-top: 80px;
       margin-bottom: 80px;
     }
-    
+    .conteudo_f-urbanas h2{ color: #fff;}
+
+    @media screen and (max-width:850px) {
+        .img-quilombo-dos-palmares{
+            max-width: 500px;
+          width: 100%;
+          display: block;
+           margin: 20px auto;
+           float: none;
+       }
+    }

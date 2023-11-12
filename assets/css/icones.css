@@ -65,9 +65,9 @@
 }
 
 .icone.pergunta::before{
-    background-image: url("../../img/ico_pergunta.png");
+    background-image: url("../img/ico-pergunta.png");
     width: 91px;
-    left: -60px;
+    left: -40px;
     background-color: transparent;
 }
 /* .bloco.estilo3 .caixa.icone.pergunta::before {
@@ -89,7 +89,7 @@
       background-image: url(../../img/ico_pesquisar.png);
       width: 108px;
       top: -20px;
-      left: -63px;
+      left: -54px;
       background-color: transparent;
   }
   .icone.refletir::before{
@@ -101,7 +101,10 @@
   }
 
 .icone.saiba-mais::before{
-    background-image: url(../../img/);
+    width: 96px;
+    left: -40px;
+    background-image: url(../../img/ico_saibamais.png);
+    background-color: transparent;
 }
 
 .icone.atencao::before{

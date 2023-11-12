@@ -1,3 +1,7 @@
+.estilo1 h2{
+  color: #00838D;
+  margin-bottom: 15px;
+}
 .notasmusicais{
   background: url(../../img/destaque_music01.svg) top left no-repeat, url(../../img/destaque_music02.svg) bottom right no-repeat;
   max-width: 600px;
@@ -5,12 +9,18 @@
     margin-right: auto;
     display: block;
 }
+.notasmusicais-img{
+  width: 180px;
+  margin: -100px 0px 25px 0px;
+}
 
 .legenda {
     font-size: 0.75rem;
     text-align: center;
   }
-
+.bt-moldura{
+  max-width: 240px !important;
+}
 
   .parallax {
     background-image: url("../../assets/objetos/parallax_territorio.jpg");
@@ -30,4 +40,9 @@
     .parallax.florestal  {
       background-image: url("../../assets/objetos/parallax_florestal.jpg");
     }
-    
+
+@media screen and (max-width:900px) {
+  .notasmusicais-img {
+      width: 100px;
+  }
+}
