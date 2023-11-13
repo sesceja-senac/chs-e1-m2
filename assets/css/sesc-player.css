@@ -4,6 +4,7 @@
     background-color: transparent;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: -160px auto 40px auto;
 }
 .sesc-audio-player .timestamp{

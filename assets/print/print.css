@@ -388,5 +388,23 @@ p{
 
 }
 
+.img-fluid, .depoimentos img,  figure img{
+  margin: 0 auto !important;
+  display: block !important;
+}
+.legenda, figcaption{
+  text-align: center !important;
+}
 
+img.visually-hidden.print{
+  margin: 0 auto !important;
+}
+
+.depoimentos.caixa.print{
+  display: block;
+}
+
+.img-quilombo-dos-palmares{
+  max-width: 400px;
+}
 }

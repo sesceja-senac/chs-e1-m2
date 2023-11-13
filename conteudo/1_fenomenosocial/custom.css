@@ -2,6 +2,9 @@
   color: #00838D;
   margin-bottom: 15px;
 }
+.depoimentos.caixa.print{
+  display: none;
+}
 .notasmusicais{
   background: url(../../img/destaque_music01.svg) top left no-repeat, url(../../img/destaque_music02.svg) bottom right no-repeat;
   max-width: 600px;
@@ -18,9 +21,12 @@
     font-size: 0.75rem;
     text-align: center;
   }
-.bt-moldura{
-  max-width: 240px !important;
-}
+  .bt-moldura{
+    max-width: 300px !important;
+  }
+  .bt-moldura img{
+   width: 300px !important;
+  }
 
   .parallax {
     background-image: url("../../assets/objetos/parallax_territorio.jpg");
@@ -44,5 +50,35 @@
 @media screen and (max-width:900px) {
   .notasmusicais-img {
       width: 100px;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .sesc-audio-player > .row{
+    margin-top: -150px;
+  }
+}
+@media screen and (max-width:750px) {
+  .sesc-audio-player > .row{
+    margin-top: -180px;
+  }
+}
+@media screen and (max-width:680px) {
+  .sesc-audio-player > .row{
+    margin-top: -210px;
+  }
+}
+@media screen and (max-width:600px) {
+  .sesc-audio-player > .row{
+    margin-top: -240px;
+  }
+  .barra{
+    background-color: #ddd;
+  }
+}
+@media screen and (max-width:540px) {
+  .sesc-audio-player > .row{
+    margin-top: -260px;
   }
 }
