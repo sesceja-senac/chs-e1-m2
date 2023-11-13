@@ -737,6 +737,7 @@ h3, .subtitulo{
     box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
     border: 4px solid #004E52;
 }
+.modal-body .youtube-pl{ max-width: 100% !important;}
 .moldura {
     padding: 80px 0px;
     background: url(../../assets/img/vetor.png) center 50px / auto 90% no-repeat;
