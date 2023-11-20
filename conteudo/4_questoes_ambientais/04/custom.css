@@ -115,6 +115,16 @@ background-image: url("../04/img/parallax-poluicao.jpg");
   background-color: #fff;
 }
 
+.caixa .tooltiper{
+  border-bottom: 2px dotted #fff;
+  border-radius: 3px;
+  padding: 0 4px;
+  transition: 300ms;
+  text-decoration: none;
+  color: #fff;
+  background-color: unset;
+}
+
 .py-80 {
   padding-top: 80px;
   padding-bottom: 80px;

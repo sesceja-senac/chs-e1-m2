@@ -865,3 +865,19 @@ img.visually-hidden.print{
 .img-quilombo-dos-palmares{
   max-width: 400px;
 }
+
+
+.d-nome {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+}
+.d-nome > span {
+  font-size:1rem;
+  display: block;
+}
+
+.estiloReferencias{
+  word-break: break-word;
+}

@@ -38,11 +38,11 @@
     font-weight: bold;
     color:#f0efe3;
     position: relative;
-    }
+}
 .d-nome > span {
     font-size:1rem;
     display: block;
-    }
+}
 
 .d-nome::after {
     content: "";

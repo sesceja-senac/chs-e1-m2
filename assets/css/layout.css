@@ -215,15 +215,17 @@ a.btn-sesc{
     background-position:
     top 0px left 50px,
     top 0px left 0px;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y, no-repeat;
     background-size:8%,  100%;
+    background-attachment: scroll, fixed;
     color: #fff !important;
     padding-top: 80px;
     padding-bottom:130px;
 }
 .estiloReferencias{
-    background-image: url('../../img/referencias.jpg');
+    background: url('../../img/referencias.jpg') no-repeat center;
     background-size: 100%;
+    background-attachment: fixed;
 
 }
 
@@ -1002,9 +1004,10 @@ h3, .subtitulo{
         background-size: 100%;
     }
     .estilo2 {
-        background: url(../../img/bg_pg_2_4_6.jpg);
-        background-position: top 0px left 0px;
-        background-size: 100%;
+        background: url(../../img/bg_pg_2_4_6.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
@@ -1105,38 +1108,42 @@ h3, .subtitulo{
     right: 0px;
   }
 
-  /* .tooltip-padrao {
+/* .tooltip-padrao {
     font-weight: bold;
     text-decoration: none;
     color: #3f3f3f;
     cursor: pointer;
     display: inline-block;
     border: 2px dotted #00838d;
-  } */
-  
-  .tooltip-padrao, .tooltiper {
+} */
+
+.tooltip-padrao, .tooltiper {
     border-bottom: 2px dotted #fff;
     border-radius: 3px;
     padding: 0 4px;
     transition: 300ms;
     text-decoration: none;
-  }
-  
-  .tooltip-padrao:hover, .tooltiper:hover {
+    color: #fff;
+}
+
+.tooltip-padrao:hover, .tooltiper:hover {
     cursor: pointer;
     background-color: #fff;
-  }
-  .btVouF{
+}
+.btVouF{
     display: block;
     margin: 20px auto;
     width: 100%;
     max-width: 450px;
     transition: opacity 0.3 ease-in-out;
     cursor: pointer;
-  }
-  .btVouF:hover{
+}
+.btVouF:hover{
     opacity: 0.7;
-  }
+}
+
+
+
 /*iphones 5 pra baixo da vida*/
 @media only screen and (max-width: 1280px) and (min-width:321px){
     .bg-sesc{
@@ -1169,6 +1176,31 @@ h3, .subtitulo{
         padding-top: 10%;
     } */
 }
+
+@media screen and (max-width:480px) {
+    .podcast-container{
+        height: 200px;
+        margin: 20px auto;
+    }
+    .sesc-audio-player > .row{
+        margin-top: 0 !important;
+    }
+    .sesc-audio-player .timestamp{
+        margin-top: 0;
+    }
+    .botoes{
+        margin-bottom: -2px;
+    }
+    .barra{
+        margin-bottom: -6px;
+        background-color: transparent !important;
+        width: 130px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media screen and (max-width:320px) {
     
     header.sesc {
