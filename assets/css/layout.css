@@ -203,7 +203,7 @@ a.btn-sesc{
     background:  url(../../img/bg_pg1_3_5.svg), url(../../img/bg_pg_1_3_5.jpg);
     background-position:
     top 0px left 50px,
-    center 0px left 0px;
+    top 0px left 0px;
     background-repeat: repeat-y;
     background-size:8%,  cover;
     color: black !important;
@@ -214,7 +214,7 @@ a.btn-sesc{
     background: url(../../img/bg_pg2_4_6.svg), url(../../img/bg_pg_2_4_6.jpg) ;
     background-position:
     top 0px left 50px,
-    center 0px left 0px;
+    top 0px left 0px;
     background-repeat: repeat-y, no-repeat;
     background-size:8%,  cover;
     background-attachment: scroll, fixed;
