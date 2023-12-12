@@ -1141,6 +1141,15 @@ h3, .subtitulo{
 .btVouF:hover{
     opacity: 0.7;
 }
+.btCacapalavras{
+    display: block;
+    margin: 20px auto;
+    transition: opacity 0.3 ease-in-out;
+    cursor: pointer;
+}
+.btCacapalavras:hover{
+    opacity: 0.7;
+}
 
 
 
