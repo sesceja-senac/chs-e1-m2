@@ -78,7 +78,7 @@ h2 img{
     transition: all ease 0.3s;
 }
 .bt-fenomeno:hover{
-    opacity: 0.8;
+    opacity: .8 !important;
 }
 .bt-disputas{
     background: url('assets/objetos/bt04.png') no-repeat;

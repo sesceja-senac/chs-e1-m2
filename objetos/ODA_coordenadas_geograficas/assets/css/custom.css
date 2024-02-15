@@ -113,7 +113,7 @@
 .obj_coord_geo .globo {
     display: block;
     margin: auto;
-    animation: globo_anim 90s linear;
+    /* animation: globo_anim 90s linear; */
 }
 .globo-2 {
     position: absolute;
