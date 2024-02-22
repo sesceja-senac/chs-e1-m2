@@ -27,8 +27,40 @@ $('.btn-proximo').click(function () {
             }
         }, 500)
     } else {
-        console.log('acabouse')
+        console.log('Ops, não há mais telas!')
     }
+})
+
+$('.btn-anterior').click(function () {
+    let telaAtual = $(this).parents('.tela');
+    let prev = $(this).parents('.tela').prev();
+    console.log(telaAtual)
+    if(prev.length>0){
+        telaAtual.fadeOut()
+        setTimeout(()=>{
+            prev.fadeIn()
+            console.log(prev.hasClass('tela-3'))
+            if(prev.hasClass('tela-3')){
+                setTimeout(() => {
+                    $('.tela-3 .indio_small').addClass('anim');
+                }, 1500);
+            }
+            if(prev.hasClass('tela-4')){
+                setTimeout(() => {
+                    $('.tela-4 .indio_small').addClass('anim');
+                }, 1500);
+            }
+        }, 500)
+    } else {
+        console.log('Ops, não há mais telas!')
+    }
+})
+
+$('.btn-reiniciar').click(function(){
+    $('.tela').fadeOut()
+    setTimeout(() => {
+        $('.tela-1').fadeIn()
+    }, 500);
 })
 
 // Aqui você adiciona ou remove os containers pra onde devem ir os cards

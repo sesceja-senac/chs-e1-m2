@@ -1,15 +1,16 @@
 .obj_coord_geo .dialog p {
     margin: 0;
 }
+
 .obj_coord_geo {
     margin-top: 20px;
 }
+
 .obj_coord_geo #wrapper {
     height: 600px;
     width: 100%;
     display: block;
     background-color: #562f25;
-    border-radius: 15px;
 }
 
 .obj_coord_geo .btn-iniciar {
@@ -21,14 +22,16 @@
     border: none;
     margin-top: 200px;
 }
+
 .obj_coord_geo .btn-iniciar:hover {
     background-image: url('../img/bt_iniciar_hv.png');
 }
+
 .obj_coord_geo .tela {
     background-size: cover;
     position: relative;
-    border-radius: 15px;
 }
+
 .obj_coord_geo .tela-1 {
     background-image: url('../img/bg_capa_horizontal.png');
     height: 100%;
@@ -40,12 +43,16 @@
     align-items: center;
 }
 
-.obj_coord_geo .titulo {
+.titulo {
     margin-top: -60px;
     margin-right: 0px;
 }
 
-.obj_coord_geo .tela-2, .obj_coord_geo .tela-3, .obj_coord_geo .tela-4, .obj_coord_geo .tela-5, .obj_coord_geo .tela-6 {
+.obj_coord_geo .tela-2,
+.obj_coord_geo .tela-3,
+.obj_coord_geo .tela-4,
+.obj_coord_geo .tela-5,
+.obj_coord_geo .tela-6 {
     height: 100%;
     width: 100%;
     background-image: url('../img/bg_horizontal.png');
@@ -60,20 +67,24 @@
     position: absolute;
     bottom: 30px;
     padding: 40px 20px;
-    
+
 }
+
 .obj_coord_geo .dialog .msg {
     /* display: flex; */
     align-items: center;
     justify-content: center;
     height: 100%;
 }
+
 .obj_coord_geo .dialog p {
     font-weight: 600;
     line-height: 1.2rem;
     max-width: 800px;
 }
-.obj_coord_geo .dialog::before, .dialog::after {
+
+.obj_coord_geo .dialog::before,
+.dialog::after {
     content: "";
     background-image: url('../img/detalhe_long.png');
     height: 22px;
@@ -83,9 +94,11 @@
     background-repeat: repeat-x;
     left: 0;
 }
+
 .obj_coord_geo .dialog::before {
     top: 8px;
 }
+
 .obj_coord_geo .dialog::after {
     bottom: 8px;
 }
@@ -98,28 +111,60 @@
     margin: 10px;
     background-image: url('../img/bt_proximo.png');
 }
-.obj_coord_geo .btn-proximo.disabled, .obj_coord_geo .btn-proximo.disabled:hover {
+
+.obj_coord_geo .btn-proximo.disabled,
+.obj_coord_geo .btn-proximo.disabled:hover {
     background-image: url('../img/bt_proximo_inativo.png');
     cursor: default;
     pointer-events: none;
 }
+
 .obj_coord_geo .btn-proximo:hover {
     background-image: url('../img/bt_proximo_hv.png');
 }
+
+.obj_coord_geo .btn-anterior {
+    background-color: transparent;
+    border: none;
+    height: 71px;
+    width: 71px;
+    margin: 10px;
+    margin-left: auto;
+    display: block;
+    background-image: url('../img/bt_proximo.png');
+    transform: scaleX(-1);
+}
+
+.obj_coord_geo .btn-anterior.disabled,
+.obj_coord_geo .btn-anterior.disabled:hover {
+    background-image: url('../img/bt_proximo_inativo.png');
+    cursor: default;
+    pointer-events: none;
+    transform: scaleX(-1);
+}
+
+.obj_coord_geo .btn-anterior:hover {
+    background-image: url('../img/bt_proximo_hv.png');
+    transform: scaleX(-1);
+}
+
 .obj_coord_geo .indio_big {
     display: block;
     margin: auto;
 }
+
 .obj_coord_geo .globo {
     display: block;
     margin: auto;
     /* animation: globo_anim 90s linear; */
 }
+
 .globo-2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
+
 .img_meridianos {
     position: absolute;
     left: 50%;
@@ -127,6 +172,7 @@
     opacity: 0;
     animation: fadeIn 3s forwards;
 }
+
 .img_paralelos {
     position: absolute;
     left: 50%;
@@ -134,6 +180,7 @@
     opacity: 0;
     animation: fadeIn 3s forwards;
 }
+
 .indio_small {
     position: absolute;
     height: 80px;
@@ -141,12 +188,15 @@
     bottom: 60%;
     z-index: 10;
 }
+
 .tela-3 .indio_small.anim {
     animation: indio-1 2s linear forwards;
 }
+
 .tela-4 .indio_small.anim {
     animation: indio-2 2s linear forwards;
 }
+
 .tela-5 #cardPile {
     position: absolute;
     left: 28%;
@@ -154,11 +204,13 @@
     transform: translateY(-50%);
     z-index: 15;
 }
+
 .tela-5 .indio_small {
     position: static;
     cursor: grab;
     z-index: 12;
 }
+
 .obj_coord_geo .tela-5 #slot-1 {
     position: absolute;
     bottom: 46%;
@@ -167,6 +219,7 @@
     width: 40px;
     z-index: 11;
 }
+
 .obj_coord_geo .tela-5 #slot-1 .bola {
     background-color: rgba(255, 255, 255, .7);
     border: 3px solid rgb(245, 55, 55);
@@ -191,107 +244,176 @@
     height: 450px;
 }
 
+.btn-reiniciar {
+    position: absolute;
+    bottom: 15px;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #BB4025;
+    border: none;
+    box-shadow: 4px 4px #5C2314;
+    color: #FFBE37;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.btn-reiniciar:hover {
+    background-color: #FFBE37;
+    color: #BB4025;
+}
+
 /* animacoes */
 @keyframes indio-1 {
-    0%{
+    0% {
         bottom: 60%;
-        left:45%;
+        left: 45%;
     }
-    100%{
+
+    100% {
         bottom: 50%;
         left: 48%;
     }
 }
+
 @keyframes indio-2 {
-    0%{
+    0% {
         bottom: 60%;
-        left:45%;
+        left: 45%;
     }
-    100%{
+
+    100% {
         bottom: 50%;
         left: 52%;
     }
 }
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 @keyframes globo_anim {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
+
 @keyframes indio_mobile_1 {
-    0%{
+    0% {
         bottom: 60%;
-        left:45%;
+        left: 45%;
     }
-    100%{
+
+    100% {
         bottom: 65%;
         left: 50%;
     }
 }
-#preloadedImages
-{
+
+#preloadedImages {
     width: 0px;
     height: 0px;
     display: inline;
     background-image: url('../img/bt_iniciar_hv.png'), url('../img/bt_proximo_hv.png'), url('../img/detalhe_long.png'), url('../img/bt_proximo.png'), url('../img/bg_horizontal.png');
 }
 
-@media (max-width:800px){
+@media (max-width:900px) {
     .obj_coord_geo #wrapper {
-        height: auto;
+        height: 700px;
 
     }
+
     .obj_coord_geo .tela-1 {
         flex-direction: column;
         padding-top: 120px;
         padding-bottom: 200px;
     }
+
     .obj_coord_geo .titulo {
         margin-top: 10px;
         width: 90%;
+        max-width: 400px;
     }
+
     .obj_coord_geo .btn-iniciar {
         margin-top: 50px;
         margin-bottom: 40px;
     }
-    .obj_coord_geo .tela-2, .obj_coord_geo .tela-3, .obj_coord_geo .tela-4, .obj_coord_geo .tela-5, .obj_coord_geo .tela-6 {
+
+    .obj_coord_geo .tela-1,
+    .obj_coord_geo .tela-2,
+    .obj_coord_geo .tela-3,
+    .obj_coord_geo .tela-4,
+    .obj_coord_geo .tela-5,
+    .obj_coord_geo .tela-6 {
         padding-top: 60px;
         height: 700px;
     }
+
     .obj_coord_geo .dialog {
         height: 300px;
         padding: 35px 10px;
     }
+
     .obj_coord_geo .btn-proximo {
         margin: 10px auto;
         display: block;
     }
+
     .tela-3 .indio_small.anim {
         animation: indio_mobile_1 2s linear forwards;
     }
+
     .tela-4 .indio_small.anim {
         animation: indio_mobile_1 2s linear forwards;
     }
+
     .tela-5 #cardPile {
         left: 10%;
         bottom: 45%;
     }
+
     .obj_coord_geo .tela-5 #slot-1 {
         bottom: 63%;
         left: 54.5%;
     }
+
     .obj_coord_geo .tela-6 iframe {
         width: 90%;
         height: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    .obj_coord_geo .dialog .msg {
+        align-items: start;
+        margin-top: -20px;
+    }
+    .btn-anterior {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        transform: scale(.7);
+    }
+    .btn-proximo {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+
+    .obj_coord_geo .dialog::after {
+        display: none;
     }
 }
